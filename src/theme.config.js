@@ -1,4 +1,4 @@
-/** @type {import("./types/ThemeConfig").default} */
+/** @type {import("../types/ThemeConfig").default} */
 const ThemeConfig = window.SVELTE_THEME_CONFIG || {
   colors: {
     primary: {
