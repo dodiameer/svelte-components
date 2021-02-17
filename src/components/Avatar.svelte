@@ -4,8 +4,8 @@
   import { getThemeColor } from "../utils/getThemeColor";
   export let src;
   export let alt = "Avatar Image";
-  export let color;
-  $: !color && getThemeColor("primary", 500).then((val) => (color = val));
+  export let color = getThemeColor("primary", 500);
+  
 </script>
 
 <img
